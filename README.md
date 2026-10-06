@@ -1,4 +1,10 @@
-# Backend B a s i c s
+# X5Project
 Учебный проект д л я отработки структуры Python-проекта.
-##* Т р е б о в а н и я
+## requirements
 Python 3.11
+requirements.txt
+
+## Startup
+```bash
+python main.py
+```
