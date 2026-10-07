@@ -1,16 +1,7 @@
-from dataclasses import dataclass
 from datetime import date
 
+from src.models import Task
 from src.logger import logger
-
-
-@dataclass
-class Task:
-    id: int
-    title: str
-    description: str
-    due_date: date
-
 
 def create_task(
     tasks_by_id: dict[str, Task],
